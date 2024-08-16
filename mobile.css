@@ -1,0 +1,131 @@
+@media screen and (max-width: 767px)  {
+    *{
+        overflow-x: hidden;
+    }
+    header {
+        /* display: flex;
+        flex-direction: column; */
+        padding: 0;
+        position: relative;
+        /* display: none; */
+      }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 90%;
+        z-index: 99;
+        /* background-color: red; */
+        width: 100%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #fbfbfb;
+      }
+      .photo{
+            position: absolute;
+            top: 370px;
+      }
+    .skills h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #fbfbfb;
+        font-family: "Libre Baskerville", serif;
+        padding-top: 200px;
+        /* background-color: red; */
+      }
+    .skill-card h2 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #fbfbfb;
+        
+      }
+      .landing{
+        justify-content: center;
+        align-items: start;
+        /* background-color: red; */
+      }
+      
+      .socials{
+        display: flex;
+        margin-right: 20px;
+        position: absolute;
+        right: 0;
+        /* bottom: 500; */
+        /* margin-bottom: 50px; */
+      }
+      
+      .about {
+        height: auto;
+        padding: 50px 20px;
+      }
+    
+      .about h1 {
+        font-size: 36px;
+        text-align: center;
+      }
+    
+      .about .description {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .about .description .line {
+        width: 100px;
+        margin: 0 auto 20px;
+      }
+    
+      .about .description p {
+        font-size: 16px;
+        padding: 0;
+        text-align: justify;
+      }
+       .experience {
+    padding: 20px;
+  }
+
+  .darker-div {
+    height: 5vh;
+  }
+
+  .experience h1 {
+    font-size: 36px;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lighter-div {
+    padding: 5vh 10px;
+    gap: 20px;
+  }
+
+  .lighter-div .exp {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .exp h2 {
+    font-size: 24px;
+  }
+
+  .exp h2::before {
+    top: 15%;
+    left: -10%;
+    height: 15px;
+    width: 15px;
+  }
+
+  .exp-desc::before {
+    height: 150px;
+    left: -10%;
+  }
+
+  .exp-desc h3 {
+    font-size: 18px;
+  }
+
+  .exp-desc p {
+    font-size: 14px;
+  }
+  }
