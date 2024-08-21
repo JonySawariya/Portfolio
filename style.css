@@ -171,8 +171,7 @@ header nav ul li .active {
 .about .description p {
   color: #fbfbfb;
   font-size: 35px;
-  padding-top: 45px;
-  gap: 100px;
+  padding-top:50px;
   /* padding-left: 170px; */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -200,7 +199,7 @@ header nav ul li .active {
   font-weight: 700;
   color: #fbfbfb;
   font-family: "Libre Baskerville", serif;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .cards {
